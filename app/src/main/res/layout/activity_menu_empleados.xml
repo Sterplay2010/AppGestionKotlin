@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vistas.MenuEmpleados">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="25sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Menú Empleados"
+            android:textColor="@color/colorPrimary_c"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="25sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:layout_weight="1"
+            android:tint="@color/colorAccentB_c"
+            app:srcCompat="@drawable/trabajo"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccentB_c"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRegistrarPeticion"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_weight="0"
+                android:text="REGISTAR PETICIÓN"
+                android:textColor="@color/colorAccentB_c"
+                app:backgroundTint="@color/white"
+                app:icon="@drawable/peticion"
+                app:iconTint="@color/colorAccentB_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConsultarEmpleado"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_weight="0"
+                android:text="VER HISTORIAL"
+                android:textColor="@color/colorAccentB_c"
+                app:backgroundTint="@color/white"
+                app:icon="@drawable/historial"
+                app:iconTint="@color/colorAccentB_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPerfilEmpleado"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_weight="0"
+                android:text="@string/perfil"
+                android:textColor="@color/colorAccentB_c"
+                app:backgroundTint="@color/white"
+                app:icon="@drawable/empleado"
+                app:iconTint="@color/colorAccentB_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCerrarSesionEmpleado"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="CERRAR SESIÓN"
+                android:textColor="@color/colorAccentB_c"
+                app:backgroundTint="@color/white"
+                app:icon="@drawable/sesion"
+                app:iconTint="@color/colorAccentB_c" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

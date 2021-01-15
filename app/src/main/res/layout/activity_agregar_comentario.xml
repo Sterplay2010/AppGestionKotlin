@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vistas.AgregarComentario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentB_c"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegresarComentario"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccentB_c"
+            app:backgroundTint="@color/colorAccentB_c"
+            app:icon="@drawable/abc_vector_test" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12sp"
+            android:layout_marginEnd="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/resolverpeticiones"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="25sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:layout_weight="1"
+                android:text="@string/registrarresolucion"
+                android:textColor="@color/colorAccentB_c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comentario"
+                android:textColor="@color/colorAccentB_c" />
+
+            <EditText
+                android:id="@+id/txtComentarioFinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorAccent_c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecharegistro"
+                android:textColor="@color/colorAccentB_c"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtFechaHoraAtencion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/colorAccent_c"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardarComentario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:text="@string/guardartodo"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/colorPrimary_c" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

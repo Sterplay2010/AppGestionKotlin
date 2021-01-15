@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Gestiona YA!</string>
+    <string name="iniciar">Iniciar Sesión</string>
+    <string name="email">E-mail</string>
+    <string name="psw">Contraseña</string>
+    <string name="perfil">Perfil de usuario</string>
+    <string name="datosgenerales">Datos generales</string>
+    <string name="nombre">Nombre:</string>
+    <string name="domicilio">Domicilio:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="fechanacimiento">Fecha de nacimiento:</string>
+    <string name="email_dato">E-mail:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="area">Área:</string>
+    <string name="puesto">Puesto:</string>
+    <string name="cambiarcontrasenia">Cambiar contraseña</string>
+    <string name="nuevacontrasenia">Nueva contraseña:</string>
+    <string name="cerrarsesion">Cerrar Sesión</string>
+    <string name="guardartodo">Guardar todo</string>
+    <string name="regresar">Regresar</string>
+    <string name="menuservicios">Menú Personal de Servicios</string>
+    <string name="resolverpeticiones">Atender petición</string>
+
+    <string name="pendientes">Peticiones pendientes</string>
+    <string name="fechaHoraRegistro">Fecha y hora de registro:</string>
+    <string name="empleado">Empleado:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="estado">Estatus:</string>
+    <string name="resolver">Resolver</string>
+    <string name="registrarresolucion">Registrar resolución</string>
+    <string name="comentario">Comentario final:</string>
+    <string name="fecharegistro">Fecha del registro:</string>
+
+    <string name="agregarempleado">Agregar Empleado</string>
+    <string name="menu">Menú Administrador</string>
+    <string name="consularempleados">Consultar Empleados</string>
+    <string name="datos">Datos Del Empleado</string>
+    <string name="registro">Registro De Empleados</string>
+    <string name="consulta">Lista De Empleados</string>
+
+    <string-array name="puestospinner">
+        <item>Selección...</item>
+        <item>Empleado</item>
+        <item>Personal De Servicios</item>
+    </string-array>
+    <string-array name="sexospinner">
+        <item>Selección...</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+</resources>

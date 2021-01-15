@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utez.edu.mx.appgestion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_index"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_index"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppGestion">
+        <activity android:name=".vistas.ConsultarEmpleado" />
+        <activity android:name=".vistas.RegistrarEmpleado" />
+        <activity android:name=".vistas.MenuAdministrador" />
+        <activity android:name=".vistas.RegistrarPeticion" />
+        <activity android:name=".vistas.ReporteHistorialEmpleados" />
+        <activity android:name=".vistas.MenuPersonal" />
+        <activity android:name=".vistas.Perfil" />
+        <activity android:name=".vistas.MenuEmpleados" />
+        <activity android:name=".vistas.ResolverPeticion"/>
+        <activity android:name=".vistas.AgregarComentario" />
+        <activity android:name=".vistas.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
